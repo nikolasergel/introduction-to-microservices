@@ -1,4 +1,4 @@
-package com.epam.song_service;
+package com.epam.songservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
