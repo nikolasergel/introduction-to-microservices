@@ -8,6 +8,14 @@
     <artifactId>common</artifactId>
     <version>1.0</version>
 
+    <distributionManagement>
+        <repository>
+            <id>repsy</id>
+            <name>My Private Maven Repository on Repsy</name>
+            <url>https://repo.repsy.io/mvn/microbelka/maven</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
